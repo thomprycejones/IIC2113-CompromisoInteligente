@@ -23,3 +23,7 @@ Martín Navarrete    | [@null]        | [menavarrete@uc.cl]
 [lsvicarovic@uc.cl]:    mailto:lsvicarovic@uc.cl
 [rtacuna@uc.cl]:        mailto:rtacuna@uc.cl
 [menavarrete@uc.cl]:    mailto:menavarrete@uc.cl
+
+## Herramientas
+
+Para la realización del proyecto usaremos [Node.js](https://nodejs.org/) y el framework [koa](http://koajs.com/). Mayores detalles estarán disponibles a lo largo del proyecto.
