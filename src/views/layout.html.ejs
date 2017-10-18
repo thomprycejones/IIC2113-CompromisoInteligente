@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>wican</title>
+    <% if (env !== 'development') { %>
+      <link rel="stylesheet" href="/assets/styles.css">
+    <% } %>
+  </head>
+
+  <body>
+    <header>
+      <div id="logo">
+        <img src="/assets/logo.png" alt="Logo" />
+      </div>
+      <nav>
+        <a href="/">Inicio</a>
+        <a href="<%= ongsPath %>">ONGs</a>
+        <a href="">Sobre nosotros</a>
+      </nav>
+      <div id="user-bar">
+        <% if (currentUser) { %>
+          <span class="name">Hola <%= currentUser.firstName %></span>
+          <form action="<%= destroySessionPath %>" method="post">
+            <input type="hidden" name="_method" value="delete" />
+            <input type="submit" value="Salir" />
+          </form>
+        <% } else { %>
+          <span class="name">Hola Invitado</span>
+          <a href="<%= newSessionPath %>">Inicia Sesión</a>
+        <% } %>
+      </div>
+    </header>
+    <%- body %>
+    <script src="/assets/app.js"></script>
+  </body>
+
+</html>
