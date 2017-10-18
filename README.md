@@ -9,8 +9,8 @@ Nombre              | GitHub            | Email
 Thomas Pryce Jones  | [@thomprycejones] | [trprycejones@uc.cl]
 Felipe Matus        | [@matusfelipe]    | [fgmatus@uc.cl]
 Lukas Svicarovic    | [@lukassr]        | [lsvicarovic@uc.cl]
-René Acuña          | [@rtacuna]        | [rtacuna@uc.cl]
-Martín Navarrete    | [@null]        | [menavarrete@uc.cl]
+René Acuña          | [@rtacuna]        | [rtacuna@uc.cl]
+Martín Navarrete    | [@menavarrete]        | [menavarrete@uc.cl]
 
 [@thomprycejones]:   https://github.com/thomprycejones
 [@matusfelipe]:      https://github.com/matusfelipe
